@@ -1,0 +1,46 @@
+{
+  "name": "video-call-app-peerjs",
+  "version": "1.0.0",
+  "description": "A video calling application using Express, Socket.IO, EJS, and PeerJS",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "video-call",
+    "webrtc",
+    "peerjs",
+    "express",
+    "socket.io",
+    "ejs",
+    "uuid"
+  ],
+  "author": "Ragini Pandey",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ragini-pandey/video-call-app-peerjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ragini-pandey/video-call-app-peerjs/issues"
+  },
+  "homepage": "https://github.com/ragini-pandey/video-call-app-peerjs#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1",
+    "uuid": "^11.1.0",
+    "peer": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "eslint": "^9.9.0",
+    "prettier": "^3.3.3"
+  }
+}
